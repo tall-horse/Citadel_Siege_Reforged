@@ -1,0 +1,844 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.33f1 (433b0a79340b) revision 4406026'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 32469 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker16
+-projectPath
+C:/Dima/Projects/Citadel_Siege_Reforged/Citadel Siege Reforged
+-logFile
+Logs/AssetImportWorker16.log
+-srvPort
+58726
+-job-worker-count
+15
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Dima/Projects/Citadel_Siege_Reforged/Citadel Siege Reforged
+C:/Dima/Projects/Citadel_Siege_Reforged/Citadel Siege Reforged
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [45792]  Target information:
+
+Player connection [45792]  * "[IP] 192.168.178.179 [Port] 0 [Flags] 2 [Guid] 1233372233 [EditorId] 1233372233 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [45792]  * "[IP] 10.2.0.2 [Port] 0 [Flags] 2 [Guid] 1233372233 [EditorId] 1233372233 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [45792] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [45792] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.76 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.33f1 (433b0a79340b)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Dima/Projects/Citadel_Siege_Reforged/Citadel Siege Reforged/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4080 Laptop GPU (ID=0x27a0)
+    Vendor:   NVIDIA
+    VRAM:     11997 MB
+    Driver:   31.0.15.5188
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.33f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003193 seconds.
+- Loaded All Assemblies, in  0.290 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 259 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.563 seconds
+Domain Reload Profiling: 851ms
+	BeginReloadAssembly (101ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (113ms)
+		LoadAssemblies (99ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (109ms)
+				TypeCache.ScanAssembly (99ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (563ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (533ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (338ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (41ms)
+			ProcessInitializeOnLoadAttributes (100ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.514 seconds
+Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.414 seconds
+Domain Reload Profiling: 925ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (315ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (153ms)
+			TypeCache.Refresh (117ms)
+				TypeCache.ScanAssembly (105ms)
+			BuildScriptInfoCaches (30ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (414ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (325ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (230ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 8 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3706 unused Assets / (0.8 MB). Loaded Objects now: 4195.
+Memory consumption went from 84.5 MB to 83.7 MB.
+Total: 6.000700 ms (FindLiveObjects: 0.354100 ms CreateObjectMapping: 0.230000 ms MarkObjects: 4.430300 ms  DeleteObjects: 0.984600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 420570.118206 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/FX/materials/textures/Smoke_A.psd
+  artifactKey: Guid(00ef5cb1ee96315459a478b746dc3ad1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/FX/materials/textures/Smoke_A.psd using Guid(00ef5cb1ee96315459a478b746dc3ad1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '362ebd1a40e34184a20a4681339dc87f') in 0.1009773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Tower_B_0.FBX
+  artifactKey: Guid(a6360e359f4767e41a49aec1887be29c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Tower_B_0.FBX using Guid(a6360e359f4767e41a49aec1887be29c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ee0151d9b9ea1014efe0baeb93cc7dc') in 0.0400744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/FX/materials/textures/Blood_A.psd
+  artifactKey: Guid(4bee57ac6bf555848a7f1b6766750bcb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/FX/materials/textures/Blood_A.psd using Guid(4bee57ac6bf555848a7f1b6766750bcb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7a6df9d6ef01b5e210d8b9d025d78f5') in 0.0125276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Tower_A_1.FBX
+  artifactKey: Guid(240875b6dee8d804883a4a485f4ed145) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Tower_A_1.FBX using Guid(240875b6dee8d804883a4a485f4ed145) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50aeda67568cb6d768a71e9cd1eb5280') in 0.0140208 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/FX/meshes/Materials/FX_MeshParts.mat
+  artifactKey: Guid(cbb9562a9af871e47a418177c886b754) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/FX/meshes/Materials/FX_MeshParts.mat using Guid(cbb9562a9af871e47a418177c886b754) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bb6296c0b2b8db3501e3c9df03ffb102') in 0.013786 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Farm_1.FBX
+  artifactKey: Guid(8841aadd935eb6e4f9567e5a24a1f945) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Farm_1.FBX using Guid(8841aadd935eb6e4f9567e5a24a1f945) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '99aa6bf66fd34dd1c6af2b5533f9c8ff') in 0.014249 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/LumberMill_0.FBX
+  artifactKey: Guid(68dc2d4464799a947be0ba3c5b424331) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/LumberMill_0.FBX using Guid(68dc2d4464799a947be0ba3c5b424331) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b8eed5c20b102a03f6a8fef6b7f41a7c') in 0.0142434 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/TownHall_0.FBX
+  artifactKey: Guid(8bfa3476d6d02f04aac71fd7a8d1da0a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/TownHall_0.FBX using Guid(8bfa3476d6d02f04aac71fd7a8d1da0a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '81c432272cbd2a70b24d03f52ad88ccd') in 0.0129416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Stables_0.FBX
+  artifactKey: Guid(c8f46a36db3ed5d4ba1ec3877467e8ca) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Stables_0.FBX using Guid(c8f46a36db3ed5d4ba1ec3877467e8ca) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '06edcee061ec1342f2cdea4bf84148cf') in 0.0144024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Archery_1.FBX
+  artifactKey: Guid(27fdd863cab8d1a419f247f4ed7a2b01) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Archery_1.FBX using Guid(27fdd863cab8d1a419f247f4ed7a2b01) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49c94ffff10cc4a65c3c80be4987936d') in 0.0128686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Keep_0.FBX
+  artifactKey: Guid(9f1a76b274a57c841b1aa03e7c5e5200) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Keep_0.FBX using Guid(9f1a76b274a57c841b1aa03e7c5e5200) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'df552e65228aec5616eb850b5661ff81') in 0.0119524 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Spear_shield/spearshield_03_run.FBX
+  artifactKey: Guid(b64e60e3fcbf21f4392f475291f62731) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Spear_shield/spearshield_03_run.FBX using Guid(b64e60e3fcbf21f4392f475291f62731) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '335009a9d0dd9392bb5631cc4001240f') in 0.0171018 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/FX/materials/TT_RTS_FX_meshes.mat
+  artifactKey: Guid(0003b0947131beb44830e136acf5b687) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/FX/materials/TT_RTS_FX_meshes.mat using Guid(0003b0947131beb44830e136acf5b687) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c2756cf9f43b3a7031058ea5171301e5') in 0.0103777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/FX/meshes/FX_wood_B.FBX
+  artifactKey: Guid(823827868e54cdb41beec25c085b2e89) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/FX/meshes/FX_wood_B.FBX using Guid(823827868e54cdb41beec25c085b2e89) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '992ba2ddc0f3c7ceb268dd80b1976772') in 0.011435 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Crossbow/crossbow_04_attack_A.FBX
+  artifactKey: Guid(7317e24a1d1d4574a95226a1347804e0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Crossbow/crossbow_04_attack_A.FBX using Guid(7317e24a1d1d4574a95226a1347804e0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '22c2582644db99a0cb969481a4829c95') in 0.0146975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/animation/animation_cavalry/cavalry/cavalry_04_attack.FBX
+  artifactKey: Guid(63322e7d283549c4a9df1da1007a04a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/animation/animation_cavalry/cavalry/cavalry_04_attack.FBX using Guid(63322e7d283549c4a9df1da1007a04a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '64490395bc443ff0381f9d85296119f5') in 0.014039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/animation/animation_cavalry/cavalry/cavalry_02_walk.FBX
+  artifactKey: Guid(eb7de86d67ebbf549b7e492e517acbac) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/animation/animation_cavalry/cavalry/cavalry_02_walk.FBX using Guid(eb7de86d67ebbf549b7e492e517acbac) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c951dfa8ac845f86e645f4b8397c883a') in 0.0153563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/FX/meshes/FX_stone_B.FBX
+  artifactKey: Guid(8c2c608f6a8b49b4da737abaa2e25f4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/FX/meshes/FX_stone_B.FBX using Guid(8c2c608f6a8b49b4da737abaa2e25f4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1acc6165cf56aad2a018660930deb56b') in 0.0138626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/Stables.FBX
+  artifactKey: Guid(0c6eb60ad59a81145839dbc6dedcbc3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/Stables.FBX using Guid(0c6eb60ad59a81145839dbc6dedcbc3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d18e100a75ef885a581277067654cfe') in 0.0159537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/animation/animation_cavalry/cavalry_staff/cav_staff_04_attack.FBX
+  artifactKey: Guid(ad9e42ea78d0e944d8002e8e45dae882) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/animation/animation_cavalry/cavalry_staff/cav_staff_04_attack.FBX using Guid(ad9e42ea78d0e944d8002e8e45dae882) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '131e54fc0e0724cff5166be9f9761cf3') in 0.0127139 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 101
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/sample_scene/animation_samples/sample_two_handed.controller
+  artifactKey: Guid(d82462a6bd2a4904e96b622dd5b15368) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/sample_scene/animation_samples/sample_two_handed.controller using Guid(d82462a6bd2a4904e96b622dd5b15368) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c468fddcdd8f4ff85e625a6517e0a1ef') in 0.0094178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Spear/spear_05_damage.FBX
+  artifactKey: Guid(628afcd6c2726c8438d41426e1658ede) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Spear/spear_05_damage.FBX using Guid(628afcd6c2726c8438d41426e1658ede) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fd7b36470e4e573824c6f306786bf65b') in 0.0151272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 58
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Library_1.FBX
+  artifactKey: Guid(2969cfa0fe7f35d4c94a50c9fb1d9f8c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Library_1.FBX using Guid(2969cfa0fe7f35d4c94a50c9fb1d9f8c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c66f209df93887de37a9b1108dfa6d01') in 0.0136873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Crossbow/crossbow_02_walk.FBX
+  artifactKey: Guid(316cc6ef3a1e10943a72749db1cca41c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Crossbow/crossbow_02_walk.FBX using Guid(316cc6ef3a1e10943a72749db1cca41c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3baf93f5ac9c4d9be745a16c31aff638') in 0.0133877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 50
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/FX/meshes/FX_wreck_D.FBX
+  artifactKey: Guid(9ffff138dd178624cb64e37ac66baa31) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/FX/meshes/FX_wreck_D.FBX using Guid(9ffff138dd178624cb64e37ac66baa31) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '926c71e82fbb159759cc3a08677f6f86') in 0.0148602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Mounted_King.prefab
+  artifactKey: Guid(a36479667d1b0f74bbd661b17c3f9476) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Mounted_King.prefab using Guid(a36479667d1b0f74bbd661b17c3f9476) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b803fba2cea3e7270c8b67eccdc6433') in 0.0435069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1152
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_03b.FBX
+  artifactKey: Guid(bcb91de041faad04ab58e5a772985424) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_03b.FBX using Guid(bcb91de041faad04ab58e5a772985424) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '94de7fbd6be49735823144cd4caf04bc') in 0.0141057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_11a.FBX
+  artifactKey: Guid(67071b7aa21eb864c947388681c23b19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_11a.FBX using Guid(67071b7aa21eb864c947388681c23b19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '05720d8a110ecc65ab03abad4ebbb3e5') in 0.0155482 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/backstuff/Back_Package.FBX
+  artifactKey: Guid(3832cb469e9c2ee47af1a2d52e4c5efe) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/backstuff/Back_Package.FBX using Guid(3832cb469e9c2ee47af1a2d52e4c5efe) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a83bd479841a7b994e34e1342589b401') in 0.0139555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/TownHall_1.FBX
+  artifactKey: Guid(1fa72418f34eb6d42adaa061aa64c0d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/TownHall_1.FBX using Guid(1fa72418f34eb6d42adaa061aa64c0d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4b984e3a2b0f7850123aaaa2a7d0e3a') in 0.0128997 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_11c.FBX
+  artifactKey: Guid(42e7a41d96d6d9e4d95df77105817169) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_11c.FBX using Guid(42e7a41d96d6d9e4d95df77105817169) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd46f8b907c2e3742fdcf96c439ef05b5') in 0.0130403 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_02d.FBX
+  artifactKey: Guid(13408c3510e33994d9328cab1987ad9e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_02d.FBX using Guid(13408c3510e33994d9328cab1987ad9e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '49047fcc105cc4762661571b24d92a53') in 0.0148787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_01c.FBX
+  artifactKey: Guid(f59ccdd0cf11c0842b4329b837f06d4c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_01c.FBX using Guid(f59ccdd0cf11c0842b4329b837f06d4c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '680e5d58108e74e1fd12381e39f09e4d') in 0.0142819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_01e.FBX
+  artifactKey: Guid(1630a4a7428480f43b8c73766803078e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_01e.FBX using Guid(1630a4a7428480f43b8c73766803078e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c9da95f27819c75053606cc624f671bf') in 0.0126299 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_09b.FBX
+  artifactKey: Guid(d7a701200ee8c82499d6e80deaa8aa53) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_09b.FBX using Guid(d7a701200ee8c82499d6e80deaa8aa53) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ba0c7fd9a0cf6b6120c0e9fd6a9b061') in 0.0141392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_03e.FBX
+  artifactKey: Guid(a7c0cef58881ab34aa08c2c50d8bebf6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_03e.FBX using Guid(a7c0cef58881ab34aa08c2c50d8bebf6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bef426fcabe902f1a7aac39b50baf68b') in 0.0126233 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Wall_B_corner_1.FBX
+  artifactKey: Guid(2537389e7f9749544a04f0d6a3b0b5c8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Wall_B_corner_1.FBX using Guid(2537389e7f9749544a04f0d6a3b0b5c8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '17edb053117e9262e8d38c4b0f925f32') in 0.0145342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_03d.FBX
+  artifactKey: Guid(45a7ebc9d653b72499aa037335e6a7c5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_03d.FBX using Guid(45a7ebc9d653b72499aa037335e6a7c5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '170e3550d103ea0c4954d221ebfa495c') in 0.0127515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_09g.FBX
+  artifactKey: Guid(3fb88ada81e427847b3dfd1efda02092) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_09g.FBX using Guid(3fb88ada81e427847b3dfd1efda02092) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'edd3cf11adf6d97f19361ededda971e1') in 0.0119418 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/backstuff/Back_Bag.FBX
+  artifactKey: Guid(9c40cd488e7d8fc419ed5b2e20b0ef6f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/backstuff/Back_Bag.FBX using Guid(9c40cd488e7d8fc419ed5b2e20b0ef6f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fe911dbe7b660feaca28d30609fef1db') in 0.0119655 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Wall_B_wall_1.FBX
+  artifactKey: Guid(c8b0da940c5dd9a408110f5e34fb5799) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/construction/Wall_B_wall_1.FBX using Guid(c8b0da940c5dd9a408110f5e34fb5799) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd7c1878e6810079f80ff69c0abfaa594') in 0.0127657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_09e.FBX
+  artifactKey: Guid(8dd731b1af6552e428302e529b495084) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_09e.FBX using Guid(8dd731b1af6552e428302e529b495084) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7126e91108dfc6979fe45be9276af860') in 0.0122723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_09h.FBX
+  artifactKey: Guid(406dd9bbf5562ed44a57a64d130508c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/heads/Head_09h.FBX using Guid(406dd9bbf5562ed44a57a64d130508c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fdb0303ee9dd7cda2f252c3e38c900ac') in 0.0122684 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.228257 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/projectiles/Bolt_lvl1.FBX
+  artifactKey: Guid(e9dc34eaeaad01a4e9ff066e44c414ff) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/projectiles/Bolt_lvl1.FBX using Guid(e9dc34eaeaad01a4e9ff066e44c414ff) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ba1506851101ffdb9a1bcc3f3516fd8') in 0.0119432 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000463 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/projectiles/Catapult_rock_lvl1.FBX
+  artifactKey: Guid(9ac1f90005599084490a0c75f5acd972) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/projectiles/Catapult_rock_lvl1.FBX using Guid(9ac1f90005599084490a0c75f5acd972) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba39b73e975091e4291d8671ba87320c') in 0.0124716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_pike.FBX
+  artifactKey: Guid(8383d263301155b4980dc56132b82813) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_pike.FBX using Guid(8383d263301155b4980dc56132b82813) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b41849af13493377f94a2c687e5588e3') in 0.0127903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/shield_14.FBX
+  artifactKey: Guid(d049d2b07603cb94b90aa5da497cdb49) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/shield_14.FBX using Guid(d049d2b07603cb94b90aa5da497cdb49) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '70093bbdd089b49bc1f7b6bb42dd88ce') in 0.0146666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_TH_Axe_A.FBX
+  artifactKey: Guid(1c2ebf890adfc594fae01532d790f59c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_TH_Axe_A.FBX using Guid(1c2ebf890adfc594fae01532d790f59c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cf0d1eea8f17a03d0f78852d039e914') in 0.0127071 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/shield_18.FBX
+  artifactKey: Guid(faded45297bfc7c4fa87e7f78373ea08) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/shield_18.FBX using Guid(faded45297bfc7c4fa87e7f78373ea08) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '569a6612863ce7e224e2cbe46c7ed988') in 0.0130404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/shield_11.FBX
+  artifactKey: Guid(d82896ceb9fed45428ae6ee0de4147c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/shield_11.FBX using Guid(d82896ceb9fed45428ae6ee0de4147c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0bfa42f222da513d5c1d69d1d498678') in 0.0130416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_staff_D.FBX
+  artifactKey: Guid(94e6046f8f40b4849b020b83f4b12b83) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_staff_D.FBX using Guid(94e6046f8f40b4849b020b83f4b12b83) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc2be4db7a4713dc3b2289027636600b') in 0.0136479 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/shield_21.FBX
+  artifactKey: Guid(e78f6bd79c1bcfd41ad1e016cba48f20) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/shield_21.FBX using Guid(e78f6bd79c1bcfd41ad1e016cba48f20) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5b4b98deabf2166f55a5b87b179a5be9') in 0.0123324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/shield_01.FBX
+  artifactKey: Guid(3ec906141554d844a94438b2d31eaa06) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/shield_01.FBX using Guid(3ec906141554d844a94438b2d31eaa06) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fab5c3139300e25520876a84a0462f37') in 0.0125822 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/TT_RTS_Units_ColorGenerator.psd
+  artifactKey: Guid(720f9a1c262e9fa4084e0592a8a93319) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/TT_RTS_Units_ColorGenerator.psd using Guid(720f9a1c262e9fa4084e0592a8a93319) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0de1326ef31c09a33958b3cabe361349') in 0.0119149 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_mace.FBX
+  artifactKey: Guid(527355e45631a534ba8b623b5d1108a4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_mace.FBX using Guid(527355e45631a534ba8b623b5d1108a4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a011eed0d51696c2c548380d4f8822d9') in 0.0145578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_short_bow.FBX
+  artifactKey: Guid(0aa6ebcf3764a8b4d8434e511934a52b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_short_bow.FBX using Guid(0aa6ebcf3764a8b4d8434e511934a52b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5d4fa59f22fe850696fd5efd508c3464') in 0.0124773 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/shield_08.FBX
+  artifactKey: Guid(5d2d6c82c7a482c49a759d56b9bd7ef0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/shield_08.FBX using Guid(5d2d6c82c7a482c49a759d56b9bd7ef0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '00696c0eba0258c57953e15c84b7e2ec') in 0.0138207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_axe_C.FBX
+  artifactKey: Guid(f8d3613c53caeb04097f34008f2fcc51) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_axe_C.FBX using Guid(f8d3613c53caeb04097f34008f2fcc51) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd8549f8c8965af20b43fd57030c1a425') in 0.0136405 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_crossbow_B.FBX
+  artifactKey: Guid(14aa066216ead72479295ff9fa1a523b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_crossbow_B.FBX using Guid(14aa066216ead72479295ff9fa1a523b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a83c43772be834605d84e4b8fd059b15') in 0.0140445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_TH_sword_B.FBX
+  artifactKey: Guid(46cb29abc704e55419e60d102c3013ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/weapons/w_TH_sword_B.FBX using Guid(46cb29abc704e55419e60d102c3013ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ba3022ae1c3d93f032359c0b3ae22ca2') in 0.0126354 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.271924 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/banners/materials/TT_RTS_Banners.mat
+  artifactKey: Guid(707975294e8d313449a5192f90eae109) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/banners/materials/TT_RTS_Banners.mat using Guid(707975294e8d313449a5192f90eae109) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd16b289c6a321064972733ce04783300') in 0.0101198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/Textures/TT_RTS_Units_black.tga
+  artifactKey: Guid(9f94d491ebee8d04d8124b25f485a94b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/Textures/TT_RTS_Units_black.tga using Guid(9f94d491ebee8d04d8124b25f485a94b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd41bdde64f4b4127c3b268e84fecda50') in 0.0137754 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Buildings/textures/TT_RTS_Buildings_pink.tga
+  artifactKey: Guid(08cfa04c5337123449348f694c32ef4d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Buildings/textures/TT_RTS_Buildings_pink.tga using Guid(08cfa04c5337123449348f694c32ef4d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd828579961c1ec15e61fba35868f3526') in 0.0127753 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/TT_RTS_Units_blue.mat
+  artifactKey: Guid(792a4bad9e08b8e41bfbd3f0b8aac1ab) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/TT_RTS_Units_blue.mat using Guid(792a4bad9e08b8e41bfbd3f0b8aac1ab) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0da29978d8c97d38481d5c303de3d0e2') in 0.0094515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/Textures/TT_RTS_Units_red.tga
+  artifactKey: Guid(f404751c35aed644a81f56cf0406073a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/Textures/TT_RTS_Units_red.tga using Guid(f404751c35aed644a81f56cf0406073a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '10c60afe55ac4965f52858378ed13821') in 0.0126901 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Buildings/TT_RTS_buildings_greenB.mat
+  artifactKey: Guid(cc6aebce1a6b863429a4dfc6238b994a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Buildings/TT_RTS_buildings_greenB.mat using Guid(cc6aebce1a6b863429a4dfc6238b994a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36d0c03da74b0a58c7e4f185a5536cb9') in 0.0095558 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/banners/materials/colors/TT_RTS_Banner_Green_A.tga
+  artifactKey: Guid(8f4316b3f24d93a4c9b7ee64a63c725e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/banners/materials/colors/TT_RTS_Banner_Green_A.tga using Guid(8f4316b3f24d93a4c9b7ee64a63c725e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c03b9da0f8d987661aed83de12aeae17') in 0.01168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/banners/materials/colors/TT_RTS_Banner_Red.tga
+  artifactKey: Guid(cb3746379ea1a2e4da656b7c06430d9a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/banners/materials/colors/TT_RTS_Banner_Red.tga using Guid(cb3746379ea1a2e4da656b7c06430d9a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ae4bbf85226af1fba5a95ce3a58d5006') in 0.0132241 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/extras/banners/materials/colors/TT_RTS_Banner_Orange.tga
+  artifactKey: Guid(5e1e86a76fc230d4c9a3e062f6917973) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/extras/banners/materials/colors/TT_RTS_Banner_Orange.tga using Guid(5e1e86a76fc230d4c9a3e062f6917973) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0ab3a35c5b063a32dc80fb23f78ede73') in 0.0118515 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000116 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/TT_RTS_Units_pink.mat
+  artifactKey: Guid(23fe6e6315af1c6458ea91a3b762eaa4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/TT_RTS_Units_pink.mat using Guid(23fe6e6315af1c6458ea91a3b762eaa4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1f12090084e8bf036c9b0e737ae490c') in 0.0091706 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/Textures/TT_RTS_Units_yellow.tga
+  artifactKey: Guid(298a25a451b74f64992ed5fc4293acb6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/Textures/TT_RTS_Units_yellow.tga using Guid(298a25a451b74f64992ed5fc4293acb6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '176c05f12531b425128256077b74e58c') in 0.0125591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/Textures/TT_RTS_Units_pink.tga
+  artifactKey: Guid(5a8b3f1a72a94464ba058eb566691041) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/Textures/TT_RTS_Units_pink.tga using Guid(5a8b3f1a72a94464ba058eb566691041) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0d40f6655ecd10937bfc9a7cbba6e238') in 0.0123702 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/Textures/TT_RTS_Units_tan.tga
+  artifactKey: Guid(568b7c2a9f6f2c746b39e0c5001e0656) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/Textures/TT_RTS_Units_tan.tga using Guid(568b7c2a9f6f2c746b39e0c5001e0656) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3cec5307f5bf38eb57f7aabe1ee3372b') in 0.0113715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/TT_RTS_Units_blueB.mat
+  artifactKey: Guid(19f3b2158b0cd134798555d774de0b3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/materials/color/Units/TT_RTS_Units_blueB.mat using Guid(19f3b2158b0cd134798555d774de0b3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a367e68c3e2a049e492cf2e3718a7967') in 0.0084288 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3697 unused Assets / (0.9 MB). Loaded Objects now: 4197.
+Memory consumption went from 83.1 MB to 82.2 MB.
+Total: 6.181300 ms (FindLiveObjects: 0.335900 ms CreateObjectMapping: 0.273800 ms MarkObjects: 4.676900 ms  DeleteObjects: 0.892500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.472 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.409 seconds
+Domain Reload Profiling: 879ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (35ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (107ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (95ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (410ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (323ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (228ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 2.30 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3704 unused Assets / (0.7 MB). Loaded Objects now: 4198.
+Memory consumption went from 84.4 MB to 83.7 MB.
+Total: 4.496800 ms (FindLiveObjects: 0.231100 ms CreateObjectMapping: 0.104600 ms MarkObjects: 3.561300 ms  DeleteObjects: 0.598800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

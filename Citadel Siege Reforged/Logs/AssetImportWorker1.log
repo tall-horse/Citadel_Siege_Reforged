@@ -257,3 +257,191 @@ Memory consumption went from 83.3 MB to 82.3 MB.
 Total: 3.817100 ms (FindLiveObjects: 0.244700 ms CreateObjectMapping: 0.143200 ms MarkObjects: 2.819400 ms  DeleteObjects: 0.608900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 215.179721 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Commander.prefab
+  artifactKey: Guid(a9733678a87478b4689672067b7718fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Commander.prefab using Guid(a9733678a87478b4689672067b7718fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc406560b1440b3cb1dfa81c7bfd80f4') in 0.2139331 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1036
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Swordman.prefab
+  artifactKey: Guid(bcc60fdbd3a37b44cbc0cb99db483477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Swordman.prefab using Guid(bcc60fdbd3a37b44cbc0cb99db483477) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '708245f5ef3a74d741cbf056d06822f7') in 0.0410825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1036
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Mounted_Scout.prefab
+  artifactKey: Guid(3444512bc6a211a4fbc66458b13748ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Mounted_Scout.prefab using Guid(3444512bc6a211a4fbc66458b13748ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34c65935df40c673edb3272214796c00') in 0.0243888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1154
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Peasant.prefab
+  artifactKey: Guid(53eb1e18130e9be4387a785b482187e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Peasant.prefab using Guid(53eb1e18130e9be4387a785b482187e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bdd5870cf0818ce7495cd40a691a9e2') in 0.0271452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1073
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Crossbowman.prefab
+  artifactKey: Guid(e93eced9cc2d545428e4a4b45713048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Crossbowman.prefab using Guid(e93eced9cc2d545428e4a4b45713048d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd37b0ef0e2d9f41857bf6da8fd697acb') in 0.0211262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1036
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Spearman.prefab
+  artifactKey: Guid(0755a95e2e1b5f44e8226989fb76f2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Spearman.prefab using Guid(0755a95e2e1b5f44e8226989fb76f2cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2904232eecf3e146c573acd9f3b30ac1') in 0.024298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1036
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Heavy_Cavalry.prefab
+  artifactKey: Guid(892bd1c95e4ec2f43a7e0a49c68f27f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Heavy_Cavalry.prefab using Guid(892bd1c95e4ec2f43a7e0a49c68f27f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61037ceb41145550e17dcae297cb3d19') in 0.0277844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1154
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Scout.prefab
+  artifactKey: Guid(6652791f0d19f3b408a94277d330b59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Scout.prefab using Guid(6652791f0d19f3b408a94277d330b59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29bfb80ff351ad70028a6ff40f1e651c') in 0.0233943 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1036
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_King.prefab
+  artifactKey: Guid(3c54df43aea316143beec51be2902cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_King.prefab using Guid(3c54df43aea316143beec51be2902cac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0aa9729690bf11ab67f0be63e321bad7') in 0.0233971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1036
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_HeavySwordman.prefab
+  artifactKey: Guid(75925c365bd895145beefbc806717633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_HeavySwordman.prefab using Guid(75925c365bd895145beefbc806717633) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6711345d336896938008aac1db7056a4') in 0.0308804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1036
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Settler.prefab
+  artifactKey: Guid(cc1d9ae112f9093468713bfc446711b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Settler.prefab using Guid(cc1d9ae112f9093468713bfc446711b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45b3a1780d94f53df7cfa2dc51d922e1') in 0.03379 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 370
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Mounted_Knight.prefab
+  artifactKey: Guid(511c566bd068dca4bb9794da5f53052a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/TT_Mounted_Knight.prefab using Guid(511c566bd068dca4bb9794da5f53052a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f145f3ba6cd9042553590bfcb7a4364a') in 0.0409636 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1154
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.713806 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/machines/TT_Catapult_lvl1.prefab
+  artifactKey: Guid(4aedbb62248b97c4595c639232cc8a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/machines/TT_Catapult_lvl1.prefab using Guid(4aedbb62248b97c4595c639232cc8a56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b34621a90082f51d520174787e3cd6a') in 0.029487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 54
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.341402 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/Blacksmith.FBX
+  artifactKey: Guid(a43f0d6131f84de40b182eb70bb23b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/Blacksmith.FBX using Guid(a43f0d6131f84de40b182eb70bb23b87) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0bc8913af62bedcbd523dbe0cefc711a') in 0.1932017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/buildings/Keep.FBX
+  artifactKey: Guid(003306f67c7bed24b8be307fb52fb0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/buildings/Keep.FBX using Guid(003306f67c7bed24b8be307fb52fb0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c046c9efc65cd666b236458ed19e425') in 0.0418944 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 67.696347 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/banners/TT_Banner_Blue_B.prefab
+  artifactKey: Guid(61cc4d6d2e984a2418a95086ff3286d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/banners/TT_Banner_Blue_B.prefab using Guid(61cc4d6d2e984a2418a95086ff3286d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60eae0b11a6ff9e2314f14e8c3a16e1f') in 0.0168557 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/banners/TT_Banner_Pink.prefab
+  artifactKey: Guid(bbf3a916dbe7de041b4ae7bd9bd28138) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/banners/TT_Banner_Pink.prefab using Guid(bbf3a916dbe7de041b4ae7bd9bd28138) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '736c5c929b99fd7d0fe527ac4b2075b7') in 0.0172436 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/prefabs/banners/TT_Banner_Orange.prefab
+  artifactKey: Guid(170f805d10c58294480f639bc1fddf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/prefabs/banners/TT_Banner_Orange.prefab using Guid(170f805d10c58294480f639bc1fddf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6bd70a91568777a40647e6945548b966') in 0.0339442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 44
+
+========================================================================
+Received Import Request.
+  Time since last request: 76.415416 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/FX/materials/Explo_A.mat
+  artifactKey: Guid(d1d128cc94d69e3468b7c31069cf4c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/FX/materials/Explo_A.mat using Guid(d1d128cc94d69e3468b7c31069cf4c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1c6b8454177d51748e8a335c17e3b8c6') in 0.0632542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/FX/materials/Sparks.mat
+  artifactKey: Guid(cba000a537231064badae10b954e7d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/FX/materials/Sparks.mat using Guid(cba000a537231064badae10b954e7d9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1866b3848f624c3000c0c37761528fc7') in 0.0242121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/FX/materials/Smoke_A.mat
+  artifactKey: Guid(385e7fcb100243148b3f0a4122c369a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/FX/materials/Smoke_A.mat using Guid(385e7fcb100243148b3f0a4122c369a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9926fbbdde72752f96cc271b7230c113') in 0.0142763 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/FX/materials/TT_RTS_FX_meshes.mat
+  artifactKey: Guid(0003b0947131beb44830e136acf5b687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/FX/materials/TT_RTS_FX_meshes.mat using Guid(0003b0947131beb44830e136acf5b687) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2a2ddd3b7df5f3b14a3f0b49e16b8c58') in 0.013599 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/FX/materials/Glow_A.mat
+  artifactKey: Guid(064a7a50f8ff29f469fd01d87aa7ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/FX/materials/Glow_A.mat using Guid(064a7a50f8ff29f469fd01d87aa7ffe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60ba45c7575eaf14c584c7441f0a5319') in 0.0149712 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
