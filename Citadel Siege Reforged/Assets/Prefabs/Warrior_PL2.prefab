@@ -19355,6 +19355,7 @@ GameObject:
   - component: {fileID: 8116728424679815189}
   - component: {fileID: 3366888547442520698}
   - component: {fileID: -8566751414736806602}
+  - component: {fileID: 2734487729631273100}
   m_Layer: 0
   m_Name: Warrior_PL2
   m_TagString: Untagged
@@ -19499,6 +19500,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
+--- !u!114 &2734487729631273100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9057299854907020101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a48d59987c449ee4488911d96d4fe393, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &9064235736966657100
 GameObject:
   m_ObjectHideFlags: 0
