@@ -17718,6 +17718,7 @@ GameObject:
   - component: {fileID: 7109145425047734558}
   - component: {fileID: 3842227234412322041}
   - component: {fileID: 2983334883064585166}
+  - component: {fileID: 1737793598845143009}
   m_Layer: 0
   m_Name: Warrior_PL1
   m_TagString: Untagged
@@ -17849,6 +17850,19 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &1737793598845143009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7984868497973637004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8e194a8dfba1e4286f07fafaba4b81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &7995332824993296461
 GameObject:
   m_ObjectHideFlags: 0

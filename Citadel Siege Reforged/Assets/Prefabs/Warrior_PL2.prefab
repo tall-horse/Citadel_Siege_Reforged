@@ -19354,6 +19354,7 @@ GameObject:
   - component: {fileID: 75021475850360633}
   - component: {fileID: 8116728424679815189}
   - component: {fileID: 3366888547442520698}
+  - component: {fileID: -8566751414736806602}
   m_Layer: 0
   m_Name: Warrior_PL2
   m_TagString: Untagged
@@ -19485,6 +19486,19 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
+--- !u!114 &-8566751414736806602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9057299854907020101}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd8e194a8dfba1e4286f07fafaba4b81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 5
 --- !u!1 &9064235736966657100
 GameObject:
   m_ObjectHideFlags: 0
