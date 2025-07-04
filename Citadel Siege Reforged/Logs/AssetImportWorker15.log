@@ -2515,3 +2515,496 @@ Memory consumption went from 100.1 MB to 99.3 MB.
 Total: 4.748200 ms (FindLiveObjects: 0.243500 ms CreateObjectMapping: 0.164600 ms MarkObjects: 3.570200 ms  DeleteObjects: 0.769000 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3699 unused Assets / (495.6 KB). Loaded Objects now: 4244.
+Memory consumption went from 100.3 MB to 99.8 MB.
+Total: 4.650800 ms (FindLiveObjects: 0.339800 ms CreateObjectMapping: 0.102800 ms MarkObjects: 3.394300 ms  DeleteObjects: 0.813000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 542.384759 seconds.
+  path: Assets/Scripts/UnitMovement.cs
+  artifactKey: Guid(fd8e194a8dfba1e4286f07fafaba4b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/UnitMovement.cs using Guid(fd8e194a8dfba1e4286f07fafaba4b81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bed3ebf5c348d6c7b0ecc6c1cd1a841a') in 0.0047199 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.444 seconds
+Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.391 seconds
+Domain Reload Profiling: 834ms
+	BeginReloadAssembly (138ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (251ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (105ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (93ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (391ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (301ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (209ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3706 unused Assets / (0.6 MB). Loaded Objects now: 4244.
+Memory consumption went from 100.1 MB to 99.5 MB.
+Total: 6.551500 ms (FindLiveObjects: 0.494400 ms CreateObjectMapping: 0.199700 ms MarkObjects: 5.308800 ms  DeleteObjects: 0.547700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.427 seconds
+Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.463 seconds
+Domain Reload Profiling: 889ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (244ms)
+		LoadAssemblies (208ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (93ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (463ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (358ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (14ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3706 unused Assets / (396.1 KB). Loaded Objects now: 4244.
+Memory consumption went from 100.1 MB to 99.7 MB.
+Total: 5.690800 ms (FindLiveObjects: 0.292600 ms CreateObjectMapping: 0.170000 ms MarkObjects: 4.554300 ms  DeleteObjects: 0.672900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.432 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.447 seconds
+Domain Reload Profiling: 878ms
+	BeginReloadAssembly (133ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (217ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (90ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (447ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (351ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (250ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3706 unused Assets / (414.8 KB). Loaded Objects now: 4244.
+Memory consumption went from 100.1 MB to 99.7 MB.
+Total: 5.221800 ms (FindLiveObjects: 0.296400 ms CreateObjectMapping: 0.169300 ms MarkObjects: 4.050000 ms  DeleteObjects: 0.705200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 241.070318 seconds.
+  path: Assets/Prefabs/Warrior_PL1.prefab
+  artifactKey: Guid(61d08c659c135f7428774824895127a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Warrior_PL1.prefab using Guid(61d08c659c135f7428774824895127a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ab6e8da96fbaa57517ca1e5bc7eb768') in 0.0804871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1038
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.806358 seconds.
+  path: Assets/Prefabs/Warrior_PL2.prefab
+  artifactKey: Guid(04147dc73968ba04483aa72cda16da4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Warrior_PL2.prefab using Guid(04147dc73968ba04483aa72cda16da4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f7d7c91f10e5648ea215bf8b2247c50') in 0.0212563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1038
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.414 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.560 seconds
+Domain Reload Profiling: 973ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (235ms)
+		LoadAssemblies (205ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (98ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (88ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (561ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (415ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (282ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Refreshing native plugins compatible for Editor in 1.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3706 unused Assets / (0.6 MB). Loaded Objects now: 4244.
+Memory consumption went from 100.1 MB to 99.5 MB.
+Total: 4.784800 ms (FindLiveObjects: 0.401100 ms CreateObjectMapping: 0.096600 ms MarkObjects: 3.534200 ms  DeleteObjects: 0.752000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.417 seconds
+Refreshing native plugins compatible for Editor in 0.83 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.543 seconds
+Domain Reload Profiling: 959ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (18ms)
+	LoadAllAssembliesAndSetupDomain (242ms)
+		LoadAssemblies (203ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (106ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (93ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (543ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (432ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (308ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3706 unused Assets / (0.9 MB). Loaded Objects now: 4244.
+Memory consumption went from 100.1 MB to 99.2 MB.
+Total: 4.517200 ms (FindLiveObjects: 0.303800 ms CreateObjectMapping: 0.207100 ms MarkObjects: 3.257000 ms  DeleteObjects: 0.748500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 123.029314 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/models/units/TT_RTS_Characters_customizable.FBX
+  artifactKey: Guid(02ded044b8e0963439276550f50be6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/models/units/TT_RTS_Characters_customizable.FBX using Guid(02ded044b8e0963439276550f50be6f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b2513587f8a573e9087c156fe3f7229') in 0.7522606 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1036
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.346465 seconds.
+  path: Assets/Prefabs/Warrior_PL1.prefab
+  artifactKey: Guid(61d08c659c135f7428774824895127a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Warrior_PL1.prefab using Guid(61d08c659c135f7428774824895127a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19411f761152944dbc5b5d4fdccc08a1') in 0.0219251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1042
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.716615 seconds.
+  path: Assets/Prefabs/Warrior_PL2.prefab
+  artifactKey: Guid(04147dc73968ba04483aa72cda16da4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Warrior_PL2.prefab using Guid(04147dc73968ba04483aa72cda16da4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e1b12151909df7448336f108aa4567f') in 0.0224055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1042
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.429 seconds
+Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.525 seconds
+Domain Reload Profiling: 954ms
+	BeginReloadAssembly (131ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (246ms)
+		LoadAssemblies (213ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (102ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (91ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (526ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (403ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (13ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (80ms)
+			ProcessInitializeOnLoadAttributes (277ms)
+			ProcessInitializeOnLoadMethodAttributes (22ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3706 unused Assets / (452.5 KB). Loaded Objects now: 4247.
+Memory consumption went from 100.6 MB to 100.1 MB.
+Total: 4.936200 ms (FindLiveObjects: 0.408300 ms CreateObjectMapping: 0.268600 ms MarkObjects: 3.654300 ms  DeleteObjects: 0.604100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 16.953035 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/sample_scene/animation_samples/sample_infantry.controller
+  artifactKey: Guid(39164aad5a45b6e4fb8eec7201d8f0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/sample_scene/animation_samples/sample_infantry.controller using Guid(39164aad5a45b6e4fb8eec7201d8f0ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4149f478c3f5d16da5438d3af31ca48') in 0.0138293 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.120221 seconds.
+  path: Assets/New Folder
+  artifactKey: Guid(9b8e3b126dd55aa41b5867def3740dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder using Guid(9b8e3b126dd55aa41b5867def3740dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd241b3d827a4d7f05fb7dee63e7cca1') in 0.0004872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.266522 seconds.
+  path: Assets/New Folder/sample_infantry.controller
+  artifactKey: Guid(85534be367b19904d9d613f045347ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Folder/sample_infantry.controller using Guid(85534be367b19904d9d613f045347ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc428e4034e79042111d252950109139') in 0.0014502 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.614196 seconds.
+  path: Assets/Animation Controllers
+  artifactKey: Guid(9b8e3b126dd55aa41b5867def3740dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Controllers using Guid(9b8e3b126dd55aa41b5867def3740dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9ce7f4e800e5c08e32a5abeb6f70c3b') in 0.0004914 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.578204 seconds.
+  path: Assets/Animation Controllers/Infantry_controller.controller
+  artifactKey: Guid(85534be367b19904d9d613f045347ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation Controllers/Infantry_controller.controller using Guid(85534be367b19904d9d613f045347ec7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c30cf5e2f4d7cd4899ae1113253ebbe3') in 0.0017188 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.540086 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Infantry/infantry_01_idle.FBX
+  artifactKey: Guid(ed5efca8bebba864d9f5d5b20196c94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Infantry/infantry_01_idle.FBX using Guid(ed5efca8bebba864d9f5d5b20196c94b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fa72cac877e2eede2d3e4e79b749e41a') in 0.0166898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005655 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Infantry/infantry_03_run_rm.FBX
+  artifactKey: Guid(0e27e26992920374e895c5c2b1c41383) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Infantry/infantry_03_run_rm.FBX using Guid(0e27e26992920374e895c5c2b1c41383) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5151141b6fb18a703145a065e236ce4d') in 0.0031292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006514 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Infantry/infantry_04_attack_A.FBX
+  artifactKey: Guid(f4554a6188f8a9147954e4d6c388d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Infantry/infantry_04_attack_A.FBX using Guid(f4554a6188f8a9147954e4d6c388d287) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0c9dd871c89bdfddb5e74ab3e2bad6e8') in 0.0036373 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Infantry/infantry_04_attack_B.FBX
+  artifactKey: Guid(2eff314cde206bb4eb0a5715561aa6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Infantry/infantry_04_attack_B.FBX using Guid(2eff314cde206bb4eb0a5715561aa6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad74b8c696b842e2e6a5c4bb36b95092') in 0.002645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Infantry/infantry_06_death_B.FBX
+  artifactKey: Guid(b0d9487d80334c74198b26915b369dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Infantry/infantry_06_death_B.FBX using Guid(b0d9487d80334c74198b26915b369dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a56c023c03dca74226b8c09eb601c4b') in 0.0018123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Infantry/infantry_06_death_A.FBX
+  artifactKey: Guid(d21976f6430d38b4d89737bfbf9c936f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/IgnorePushing/Toony Tiny Assets/animation/animation_infantry/Infantry/infantry_06_death_A.FBX using Guid(d21976f6430d38b4d89737bfbf9c936f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5e47f756a76be5decab36d937b0c6c64') in 0.001838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 49
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.465 seconds
+Refreshing native plugins compatible for Editor in 2.41 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.587 seconds
+Domain Reload Profiling: 1051ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (19ms)
+	LoadAllAssembliesAndSetupDomain (264ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (111ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (100ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (587ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (440ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (92ms)
+			ProcessInitializeOnLoadAttributes (301ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 0.95 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3706 unused Assets / (1.1 MB). Loaded Objects now: 4247.
+Memory consumption went from 100.6 MB to 99.5 MB.
+Total: 5.561900 ms (FindLiveObjects: 0.563600 ms CreateObjectMapping: 0.273300 ms MarkObjects: 3.718700 ms  DeleteObjects: 1.005300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
