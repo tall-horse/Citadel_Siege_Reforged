@@ -29,12 +29,10 @@ public class TestInput : MonoBehaviour
     }
     private void TriggerPress1(InputAction.CallbackContext context)
     {
-        Debug.Log("spawn warrior for player 1");
         OnWarrior1Spawned?.Invoke();
     }
     private void TriggerPress2(InputAction.CallbackContext context)
     {
-        Debug.Log("spawn warrior for player 2");
         OnWarrior2Spawned?.Invoke();
     }
     private void OnDeviceChange(InputDevice device, InputDeviceChange change)
