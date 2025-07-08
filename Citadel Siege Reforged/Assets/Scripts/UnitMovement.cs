@@ -2,22 +2,20 @@ using UnityEngine;
 
 public class UnitMovement : MonoBehaviour
 {
-    [SerializeField] private float speed = 5f;
-    private CharacterController characterController;
+    [SerializeField] private float speed = 15f;
+    private Rigidbody rb;
+    private Unit unit;
+    private float indirectMultipliyer = 10f;
     void Awake()
     {
-        characterController = GetComponentInParent<CharacterController>();
-    }
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-
+        rb = GetComponent<Rigidbody>();
+        unit = GetComponent<Unit>();
     }
 
     // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        Vector3 move = transform.forward * speed * Time.deltaTime;
-        characterController.Move(move);
+        if (unit.UnitState.currentState != UnitState.UNITSTATE.WALK) return;
+        rb.linearVelocity = transform.forward * speed * indirectMultipliyer * Time.deltaTime;
     }
 }

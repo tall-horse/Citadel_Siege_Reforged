@@ -12,7 +12,7 @@ public class UnitState
         ENTER, UPDATE, EXIT
     }
 
-    public UNITSTATE unitState;
+    public UNITSTATE currentState;
     protected EVENT eventState;
     protected Animator anim;
     protected UnitState nextState;
@@ -48,7 +48,7 @@ public class Idle : UnitState
 {
     public Idle(Animator _anim, ReachDetector _reachDetector, IHealth _thisTarget) : base(_anim, _reachDetector, _thisTarget)
     {
-        unitState = UNITSTATE.IDLE;
+        currentState = UNITSTATE.IDLE;
     }
     public override void Enter()
     {
@@ -69,7 +69,7 @@ public class Idle : UnitState
     {
         public Walk(Animator _anim, ReachDetector _reachDetector, IHealth _thisTarget) : base(_anim, _reachDetector, _thisTarget)
         {
-            unitState = UNITSTATE.WALK;
+            currentState = UNITSTATE.WALK;
             reachDetector.OnTargetFound += StartAttacking;
         }
         public override void Enter()
@@ -93,7 +93,7 @@ public class Idle : UnitState
     {
         public Attack(Animator _anim, ReachDetector _reachDetector, IHealth _thisTarget) : base(_anim, _reachDetector, _thisTarget)
         {
-            unitState = UNITSTATE.ATTACK;
+            currentState = UNITSTATE.ATTACK;
         }
         public override void Enter()
         {

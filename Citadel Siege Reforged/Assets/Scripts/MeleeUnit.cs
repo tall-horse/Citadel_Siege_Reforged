@@ -1,21 +1,20 @@
 using UnityEngine;
 
-public class MeleeUnit : MonoBehaviour, IHealth
+public class MeleeUnit : Unit
 {
     private Animator animator;
-    private UnitState unitState;
     private ReachDetector reachDetector;
-    public IHealth Target { get; set; }
-    [field: SerializeField] UnitState.UNITSTATE currentState;
+    [field: SerializeField] private UnitState.UNITSTATE currentState;
     private void Awake()
     {
         animator = GetComponent<Animator>();
         reachDetector = GetComponent<ReachDetector>();
-        unitState = new Idle(animator, reachDetector, this);
+        UnitState = new Idle(animator, reachDetector, this);
+        Itself = transform;
     }
     private void Update()
     {
-        unitState = unitState.Process();
-        currentState = unitState.unitState;
+        UnitState = UnitState.Process();
+        currentState = UnitState.currentState;
     }
 }
