@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ReachDetector : MonoBehaviour
 {
-    public event Action<IHealth> OnTargetFound;
+    public event Action<IProperty> OnTargetFound;
     [SerializeField] private float detectionRadius = 2f;
     [SerializeField] private float detectionInterval = 0.2f; // check 5 times per second
     [SerializeField] private LayerMask targetLayer;
@@ -35,7 +35,7 @@ public class ReachDetector : MonoBehaviour
         for (int i = 0; i < hits.Length; i++)
         {
             if (unit.Target != null) return;
-            var potentialTarget = hits[i].GetComponent<IHealth>();
+            var potentialTarget = hits[i].GetComponent<IProperty>();
             if (potentialTarget == null) return;
             var a = potentialTarget.Itself.position;
             if (Vector3.Distance(transform.position, a) <= detectionRadius)

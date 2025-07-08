@@ -17,12 +17,14 @@ public class UnitState
     protected Animator anim;
     protected UnitState nextState;
     protected ReachDetector reachDetector;
-    protected IHealth thisTarget;
-    public UnitState(Animator _anim, ReachDetector _reachDetector, IHealth _thisTarget)
+    protected IProperty thisTarget;
+    protected Health health;
+    public UnitState(Animator _anim, ReachDetector _reachDetector, IProperty _thisTarget, Health _health)
     {
         anim = _anim;
         reachDetector = _reachDetector;
         thisTarget = _thisTarget;
+        health = _health;
         eventState = EVENT.ENTER;
     }
     public virtual void Enter() { eventState = EVENT.UPDATE; }
@@ -46,9 +48,10 @@ public class UnitState
 }
 public class Idle : UnitState
 {
-    public Idle(Animator _anim, ReachDetector _reachDetector, IHealth _thisTarget) : base(_anim, _reachDetector, _thisTarget)
+    public Idle(Animator _anim, ReachDetector _reachDetector, IProperty _thisTarget, Health _health) : base(_anim, _reachDetector, _thisTarget, _health)
     {
         currentState = UNITSTATE.IDLE;
+        health.OnDead += TriggerDeath;
     }
     public override void Enter()
     {
@@ -57,7 +60,7 @@ public class Idle : UnitState
     }
     public override void Update()
     {
-        nextState = new Walk(anim, reachDetector, thisTarget);
+        nextState = new Walk(anim, reachDetector, thisTarget, health);
         eventState = EVENT.EXIT;
     }
     public override void Exit()
@@ -65,22 +68,28 @@ public class Idle : UnitState
         anim.ResetTrigger("isIdle");
         base.Exit();
     }
+    private void TriggerDeath()
+    {
+        nextState = new Die(anim, reachDetector, thisTarget, health);
+        eventState = EVENT.EXIT;
+    }
     public class Walk : UnitState
     {
-        public Walk(Animator _anim, ReachDetector _reachDetector, IHealth _thisTarget) : base(_anim, _reachDetector, _thisTarget)
+        public Walk(Animator _anim, ReachDetector _reachDetector, IProperty _thisTarget, Health _health) : base(_anim, _reachDetector, _thisTarget, _health)
         {
             currentState = UNITSTATE.WALK;
             reachDetector.OnTargetFound += StartAttacking;
+            health.OnDead += TriggerDeath;
         }
         public override void Enter()
         {
             anim.SetTrigger("isWalk");
             base.Enter();
         }
-        private void StartAttacking(IHealth target)
+        private void StartAttacking(IProperty target)
         {
             thisTarget.Target = target;
-            nextState = new Attack(anim, reachDetector, thisTarget);
+            nextState = new Attack(anim, reachDetector, thisTarget, health);
             eventState = EVENT.EXIT;
         }
         public override void Exit()
@@ -88,12 +97,18 @@ public class Idle : UnitState
             anim.ResetTrigger("isWalk");
             base.Exit();
         }
+        private void TriggerDeath()
+        {
+            nextState = new Die(anim, reachDetector, thisTarget, health);
+            eventState = EVENT.EXIT;
+        }
     }
     public class Attack : UnitState
     {
-        public Attack(Animator _anim, ReachDetector _reachDetector, IHealth _thisTarget) : base(_anim, _reachDetector, _thisTarget)
+        public Attack(Animator _anim, ReachDetector _reachDetector, IProperty _thisTarget, Health _health) : base(_anim, _reachDetector, _thisTarget, _health)
         {
             currentState = UNITSTATE.ATTACK;
+            health.OnDead += TriggerDeath;
         }
         public override void Enter()
         {
@@ -103,6 +118,28 @@ public class Idle : UnitState
         public override void Exit()
         {
             anim.ResetTrigger("isAttack");
+            base.Exit();
+        }
+        private void TriggerDeath()
+        {
+            nextState = new Die(anim, reachDetector, thisTarget, health);
+            eventState = EVENT.EXIT;
+        }
+    }
+    public class Die : UnitState
+    {
+        public Die(Animator _anim, ReachDetector _reachDetector, IProperty _thisTarget, Health _health) : base(_anim, _reachDetector, _thisTarget, _health)
+        {
+            currentState = UNITSTATE.DIE;
+        }
+        public override void Enter()
+        {
+            anim.SetTrigger("isDead");
+            base.Enter();
+        }
+        public override void Exit()
+        {
+            anim.ResetTrigger("isDead");
             base.Exit();
         }
     }
