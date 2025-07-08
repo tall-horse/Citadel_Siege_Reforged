@@ -45,9 +45,9 @@ public class ReachDetector : MonoBehaviour
                     OnTargetFound?.Invoke(potentialTarget);
                 }
             }
-
         }
     }
+
     private void OnDrawGizmosSelected()
     {
         Gizmos.color = Color.red;

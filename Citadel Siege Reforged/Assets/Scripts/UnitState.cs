@@ -19,6 +19,7 @@ public class UnitState
     protected ReachDetector reachDetector;
     protected IProperty thisTarget;
     protected Health health;
+    protected Damager damager;
     public UnitState(Animator _anim, ReachDetector _reachDetector, IProperty _thisTarget, Health _health)
     {
         anim = _anim;
@@ -48,8 +49,14 @@ public class UnitState
 }
 public class Idle : UnitState
 {
-    public Idle(Animator _anim, ReachDetector _reachDetector, IProperty _thisTarget, Health _health) : base(_anim, _reachDetector, _thisTarget, _health)
+    public Idle(Animator _anim, ReachDetector _reachDetector, IProperty _thisTarget, Health _health, Damager _damager) : base(_anim, _reachDetector, _thisTarget, _health)
     {
+        damager = _damager;
+        damager.OnPursueNewTarget += () =>
+        {
+            nextState = new Walk(anim, reachDetector, thisTarget, health, damager);
+            eventState = EVENT.EXIT;
+        };
         currentState = UNITSTATE.IDLE;
         health.OnDead += TriggerDeath;
     }
@@ -60,7 +67,7 @@ public class Idle : UnitState
     }
     public override void Update()
     {
-        nextState = new Walk(anim, reachDetector, thisTarget, health);
+        nextState = new Walk(anim, reachDetector, thisTarget, health, damager);
         eventState = EVENT.EXIT;
     }
     public override void Exit()
@@ -75,8 +82,14 @@ public class Idle : UnitState
     }
     public class Walk : UnitState
     {
-        public Walk(Animator _anim, ReachDetector _reachDetector, IProperty _thisTarget, Health _health) : base(_anim, _reachDetector, _thisTarget, _health)
+        public Walk(Animator _anim, ReachDetector _reachDetector, IProperty _thisTarget, Health _health, Damager _damager) : base(_anim, _reachDetector, _thisTarget, _health)
         {
+            damager = _damager;
+            damager.OnPursueNewTarget += () =>
+            {
+                nextState = new Walk(anim, reachDetector, thisTarget, health, damager);
+                eventState = EVENT.EXIT;
+            };
             currentState = UNITSTATE.WALK;
             reachDetector.OnTargetFound += StartAttacking;
             health.OnDead += TriggerDeath;
@@ -89,7 +102,7 @@ public class Idle : UnitState
         private void StartAttacking(IProperty target)
         {
             thisTarget.Target = target;
-            nextState = new Attack(anim, reachDetector, thisTarget, health);
+            nextState = new Attack(anim, reachDetector, thisTarget, health, damager);
             eventState = EVENT.EXIT;
         }
         public override void Exit()
@@ -105,10 +118,18 @@ public class Idle : UnitState
     }
     public class Attack : UnitState
     {
-        public Attack(Animator _anim, ReachDetector _reachDetector, IProperty _thisTarget, Health _health) : base(_anim, _reachDetector, _thisTarget, _health)
+        public Attack(Animator _anim, ReachDetector _reachDetector, IProperty _thisTarget, Health _health, Damager _damager)
+        : base(_anim, _reachDetector, _thisTarget, _health)
         {
+            damager = _damager;
+            damager.OnPursueNewTarget += () =>
+            {
+                nextState = new Walk(anim, reachDetector, thisTarget, health, damager);
+                eventState = EVENT.EXIT;
+            };
             currentState = UNITSTATE.ATTACK;
             health.OnDead += TriggerDeath;
+
         }
         public override void Enter()
         {

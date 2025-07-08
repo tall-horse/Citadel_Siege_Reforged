@@ -1,12 +1,12 @@
+using System;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class Damager : MonoBehaviour
 {
     [SerializeField] private float damageAmount;
-    public UnityEvent OnDamageDealt;
     // private Animator animator;
     private IProperty property;
+    public event Action OnPursueNewTarget;
     void Awake()
     {
         // animator = GetComponent<Animator>();
@@ -20,6 +20,16 @@ public class Damager : MonoBehaviour
             return;
         }
         //OnDamageDealt?.Invoke();
-        property.Target.Itself.GetComponent<Health>().ModifyHealth(-damageAmount);
+        var targetHealth = property.Target.Itself.GetComponent<Health>();
+        targetHealth.ModifyHealth(-damageAmount);
+        if (targetHealth.IsAlive == false)
+        {
+            PursureNewTarget();
+            //find another target and switch to Walk state
+        }
+    }
+    public void PursureNewTarget()
+    {
+        OnPursueNewTarget?.Invoke();
     }
 }

@@ -1,25 +1,37 @@
 using System;
+using System.Linq;
+using Unity.Android.Gradle;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private float currentHealth;
+    [field: SerializeField] public float CurrentHealth { get; private set; }
     [SerializeField] private float maxHealth;
-    private bool isAlive = true;
+    [field: SerializeField] public bool IsAlive { get; private set; } = true;
     public event Action OnDead;
     void Start()
     {
-        currentHealth = maxHealth;
+        CurrentHealth = maxHealth;
     }
     public void ModifyHealth(float amount)
     {
-        currentHealth += amount;
-        if (currentHealth > maxHealth)
-            currentHealth = maxHealth;
-        if (currentHealth <= 0)
+        CurrentHealth += amount;
+        if (CurrentHealth > maxHealth)
+            CurrentHealth = maxHealth;
+        if (CurrentHealth <= 0)
         {
-            currentHealth = 0;
-            isAlive = false;
+            CurrentHealth = 0;
+            IsAlive = false;
+            FindObjectsByType<Unit>(FindObjectsSortMode.None).ToList().ForEach(a =>
+            {
+                if (a.Target == GetComponent<IProperty>())
+                {
+                    a.Target = null;
+                    a.Itself.GetComponent<Damager>().PursureNewTarget();
+                }
+
+            });
             OnDead?.Invoke();
         }
     }
