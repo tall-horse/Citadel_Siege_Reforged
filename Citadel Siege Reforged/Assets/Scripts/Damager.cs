@@ -4,30 +4,45 @@ using UnityEngine;
 public class Damager : MonoBehaviour
 {
     [SerializeField] private float damageAmount;
-    // private Animator animator;
+
     private IProperty property;
+    private Health cachedTargetHealth;
+
     public event Action OnPursueNewTarget;
+
     void Awake()
     {
-        // animator = GetComponent<Animator>();
         property = GetComponent<IProperty>();
     }
+
     public void Damage()
     {
-        if (property.Target == null)
+        var target = property.Target;
+
+        if (target == null)
         {
+#if UNITY_EDITOR
+            // Optional: log only in editor to avoid GC in builds
             Debug.Log("No target - no damage");
+#endif
             return;
         }
-        //OnDamageDealt?.Invoke();
-        var targetHealth = property.Target.Itself.GetComponent<Health>();
-        targetHealth.ModifyHealth(-damageAmount);
-        if (targetHealth.IsAlive == false)
+
+        // Cache health component to avoid repeated GetComponent allocations
+        if (cachedTargetHealth == null || cachedTargetHealth.gameObject != target.Itself)
         {
-            PursureNewTarget();
-            //find another target and switch to Walk state
+            cachedTargetHealth = target.Itself.GetComponent<Health>();
+        }
+
+        cachedTargetHealth.ModifyHealth(-damageAmount);
+
+        if (!cachedTargetHealth.IsAlive)
+        {
+            cachedTargetHealth = null; // Clear cached reference
+            //PursureNewTarget();
         }
     }
+
     public void PursureNewTarget()
     {
         OnPursueNewTarget?.Invoke();

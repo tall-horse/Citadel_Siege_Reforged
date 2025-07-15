@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class MeleeUnit : Unit
@@ -13,12 +14,16 @@ public class MeleeUnit : Unit
         reachDetector = GetComponent<ReachDetector>();
         damager = GetComponent<Damager>();
         health = GetComponent<Health>();
-        UnitState = new Idle(animator, reachDetector, this, health, damager);
+        UnitState = new Idle.Walk(animator, reachDetector, this, health, damager);
         Itself = transform;
     }
     private void Update()
     {
         UnitState = UnitState.Process();
         currentState = UnitState.currentState;
+    }
+    public void Stop()
+    {
+        RaiseStopped();
     }
 }

@@ -1,7 +1,5 @@
 using System;
 using System.Linq;
-using Unity.Android.Gradle;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class Health : MonoBehaviour
@@ -23,16 +21,17 @@ public class Health : MonoBehaviour
         {
             CurrentHealth = 0;
             IsAlive = false;
-            FindObjectsByType<Unit>(FindObjectsSortMode.None).ToList().ForEach(a =>
-            {
-                if (a.Target == GetComponent<IProperty>())
-                {
-                    a.Target = null;
-                    a.Itself.GetComponent<Damager>().PursureNewTarget();
-                }
-
-            });
             OnDead?.Invoke();
+            // Debug.Log("time to end in health");
+            // FindObjectsByType<Unit>(FindObjectsSortMode.None).ToList().ForEach(a =>
+            // {
+            //     if (a.Target == GetComponent<IProperty>())
+            //     {
+            //         a.Target = null;
+            //         a.Itself.GetComponent<Damager>().PursureNewTarget();
+            //     }
+
+            // });
         }
     }
 }

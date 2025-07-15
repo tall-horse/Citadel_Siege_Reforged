@@ -1,23 +1,34 @@
 using System;
-using System.Linq;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ReachDetector : MonoBehaviour
 {
     public event Action<IProperty> OnTargetFound;
-    [SerializeField] private float detectionRadius = 2f;
-    [SerializeField] private float detectionInterval = 0.2f; // check 5 times per second
+
+    [SerializeField] private float detectionRadius = 1.65f;
+    [SerializeField] private float detectionInterval = 0.5f;
     [SerializeField] private LayerMask targetLayer;
-    private Collider collider;
-    private Unit unit;
+
+    private Collider ownCollider;
+    private IProperty unit;
     private float timer = 0f;
+
+    public bool lookingForTargets = true;
+
+    private readonly List<IProperty> potentialTargets = new List<IProperty>();
+    private readonly Collider[] hitBuffer = new Collider[20]; // Adjust size as needed
+
     void Awake()
     {
         unit = GetComponent<Unit>();
-        collider = GetComponent<Collider>();
+        ownCollider = GetComponent<Collider>();
     }
+
     private void Update()
     {
+        if (!lookingForTargets || unit.Target != null) return;
+
         timer += Time.deltaTime;
 
         if (timer >= detectionInterval)
@@ -29,22 +40,27 @@ public class ReachDetector : MonoBehaviour
 
     private void DetectTarget()
     {
-        if (unit.Target != null) return;
-        Collider[] hits = Physics.OverlapSphere(transform.position, detectionRadius, targetLayer);
-        hits.ToList().Remove(collider);
-        for (int i = 0; i < hits.Length; i++)
+        int hitCount = Physics.OverlapSphereNonAlloc(transform.position, detectionRadius, hitBuffer, targetLayer);
+        potentialTargets.Clear();
+
+        for (int i = 0; i < hitCount; i++)
         {
-            if (unit.Target != null) return;
-            var potentialTarget = hits[i].GetComponent<IProperty>();
-            if (potentialTarget == null) return;
-            var a = potentialTarget.Itself.position;
-            if (Vector3.Distance(transform.position, a) <= detectionRadius)
+            Collider hit = hitBuffer[i];
+            if (hit == ownCollider) continue;
+
+            IProperty property = hit.GetComponent<Unit>() as IProperty;
+            if (property == null)
+                property = hit.GetComponent<Structure>() as IProperty;
+
+            if (property != null && property.Owner != unit.Owner && property != unit)
             {
-                if (potentialTarget != null && potentialTarget != unit)
-                {
-                    OnTargetFound?.Invoke(potentialTarget);
-                }
+                potentialTargets.Add(property);
             }
+        }
+
+        foreach (var p in potentialTargets)
+        {
+            OnTargetFound?.Invoke(p);
         }
     }
 

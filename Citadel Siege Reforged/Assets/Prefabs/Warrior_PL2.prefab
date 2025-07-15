@@ -19508,6 +19508,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2274b391f6f90e5408179b10ac4f58cd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <Owner>k__BackingField: 1
   currentState: 0
 --- !u!54 &-6280058075369189452
 Rigidbody:
@@ -19569,8 +19570,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bebc3f7d3134254b81b6cab1a9f7003, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentHealth: 0
+  <CurrentHealth>k__BackingField: 0
   maxHealth: 20
+  <IsAlive>k__BackingField: 1
 --- !u!114 &8159676245310495161
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19584,21 +19586,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 5
-  OnDamageDealt:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!1 &9064235736966657100
 GameObject:
   m_ObjectHideFlags: 0
